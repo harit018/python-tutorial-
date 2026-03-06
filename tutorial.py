@@ -154,8 +154,42 @@ print(b)
 print(c)
 
 print(type(a))
-print(type(b))
+print(type(b)) 
 print(type(c))
+
+
+import random 
+
+print(random.randrange(1,10)) # this for random number choosse
+
+
+x = int(1)    # x will be 1
+y = int(2.8)  # y will be 2
+z = int(3)    # z will be 3
+
+print(x)
+print(y)
+print(z)
+
+
+x = float(1)   # x will be 1.0
+y = float(2.5) # y will be 2.5
+z = float(3)   # z will be 3.0
+w = float(4.2) # w will be 4.2
+
+print(x)
+print(y)
+print(z)
+print(w)
+
+
+x = str("harit")  # x will be harit
+y = str(1)        # y will be 1
+z = str(2.5)      # z will be 2.5
+
+print(x)
+print(y)
+print(z)
 
 
 
