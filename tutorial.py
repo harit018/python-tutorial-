@@ -192,4 +192,34 @@ print(y)
 print(z)
 
 
+a = "hello"
+print(a) # this is for creating a string using double quotes
+
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)                              # this is for creating a multi line string using triple double quotes
+
+
+a = '''Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.'''
+print(a)                              # this is for creating a multi line string using triple single quotes
+
+
+a = "Hello , World !"
+print(a[1])# this is for accessing the second character of the string a which is "e" because the index starts from 0
+print(a[0])# this is for accessing the first character of the string a which is "H" because the index starts from 0 
+print(a[2:5]) # this is for accessing the characters from index 2 to index 4 of the string a which is "llo" because the index starts from 0 and the end index is exclusive
+
+
+for x in "banana":
+  print(x) # this is for looping through the characters of the string "banana" and printing each character on a new line because we have used a for loop to iterate through the string and print each character
+
+
+
+a = "Hello, World!"
+print(len(a)) # this is for getting the length of the string a which is 13 because there are 13 characters in the string "Hello, World!" including the space and the punctuation\
 
